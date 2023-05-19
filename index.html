@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +7,32 @@
         <title>App de Sorteio</title>
     </head>
     <body>
-        <h1>Imersão Front Class</h1>
-        <h2>Dia 31 de Maio</h2>
-        
-        <p>Inscreva-se no link da Bio!</p>
+        <head>
+            <img width="100" src="./assets/img/logo.png" alt="Logo app de Sorteio"/>
+            <h1>App de Sorteio Kenzie</h1>
+        </head>
 
-        <h4>Lista não ordenada</h4>
+        <main>
+            <h2>SORTEAR NOMES</h2>
+            <p>Crie o sorteio de <strong>nomes</strong> facilmente ultilizando essa aplicação</p>
 
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+            <hr>
 
-        <h4>Lista Ordenada</h4>
+            <p class="text-left">Adicione nomes</p>
 
-        <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ol>
+            <div class="form">
+                <label for="inputNames">Adicione os nomes para o sorteio</label>
+                <textarea id="inputNames" placeholder="adicione nomes separados por vírgula ex. (Maria, João, etc)"></textarea>
+                <button class="raffleButton">Sortear</button>
+            </div>
+
+            <div class="resul">
+                <span class="close">x</span>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
     </body>
 </html>
