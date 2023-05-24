@@ -5,30 +5,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>App de Sorteio</title>
+        <link rel="stylesheet" href="./assets/css/style.css"/>
     </head>
     <body>
-        <head>
-            <img width="100" src="./assets/img/logo.png" alt="Logo app de Sorteio"/>
+        <header>
+            <img src="./assets/img/logo.png" alt="Logo app de Sorteio"/>
             <h1>App de Sorteio Kenzie</h1>
-        </head>
+        </header>
+        <main class="app">
+            <section>
+                <h2>SORTEAR NOMES</h2>
+                <p>Crie o sorteio de <strong>nomes</strong> facilmente ultilizando essa aplicação</p>
 
-        <main>
-            <h2>SORTEAR NOMES</h2>
-            <p>Crie o sorteio de <strong>nomes</strong> facilmente ultilizando essa aplicação</p>
+                <hr>
 
-            <hr>
+                <p class="text-left">Adicione nomes</p>
 
-            <p class="text-left">Adicione nomes</p>
+                <div class="form">
+                    <label for="inputNames">Adicione os nomes para o sorteio</label>
+                    <textarea id="inputNames" placeholder="adicione nomes separados por vírgula ex. (Maria, João, etc)"></textarea>
+                    <button class="raffleButton">Sortear</button>
+                </div>
 
-            <div class="form">
-                <label for="inputNames">Adicione os nomes para o sorteio</label>
-                <textarea id="inputNames" placeholder="adicione nomes separados por vírgula ex. (Maria, João, etc)"></textarea>
-                <button class="raffleButton">Sortear</button>
-            </div>
-
-            <div class="resul">
-                <span class="close">x</span>
-            </div>
+                <div class="resul">
+                    <span class="close">x</span>
+                </div>
+            </section>
         </main>
 
         <footer>

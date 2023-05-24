@@ -1,0 +1,76 @@
+body,header,img,h1,h2,main,section,p,div,input,textarea,button,label,footer,hr{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+header {
+    background-color: #04133d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+    header img {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    header h1 {
+        color: #ffffff;
+    }
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+    section {
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px #808080;
+        padding: 30px;
+        width: 600px;
+        color: #808080;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+        section h2 {
+            font-weight: 400;
+        }
+
+        section p {
+
+        }
+
+        section hr {
+
+        }
+
+        section .form {
+
+        }
+
+            section label {
+
+            }
+
+            section textarea {
+
+            }
+
+            section button {
+
+            }
+
+footer {
+    
+}
